@@ -1,0 +1,7 @@
+# 本文件必须放置于站点根目录，而不是CMS安装目录
+
+# 面向的搜索引擎
+User-agent: *
+
+# 不被搜索的URL
+Disallow: guestbook.asp

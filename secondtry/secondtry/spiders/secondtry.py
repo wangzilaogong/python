@@ -15,12 +15,15 @@ class Myspider(scrapy.Spider):
     def start_requests(self):
         for i in range(1,2501):
             url = self.bash_url +'P'+ str(i) + self.bashurl
-            print(url)
             yield Request(url,self.parse)
         yield Request('http://www.shuifeng.net/Dic/Html/Index.htm',self.parse)
 
     def parse(self, response):
         soup = BeautifulSoup(response.text, "lxml")
-        print (soup.title)
-
+        print(soup.title.text)
+        print (response.url)
+        item = SecondtryItem()
+        item['zimu'] = soup.title.text
+        item['address'] = response.url
+        return item
 

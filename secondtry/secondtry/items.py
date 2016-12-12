@@ -12,8 +12,8 @@ import scrapy
 class SecondtryItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    #P页码
-    page = scrapy.Field()
+    #字母
+    zimu = scrapy.Field()
     #地址
     address = scrapy.Field()
 

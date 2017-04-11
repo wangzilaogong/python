@@ -11,9 +11,9 @@ import scrapy
 class MessageItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    name = scrapy.Field()#网站名
+    webname = scrapy.Field()#网站名
 
-    url = scrapy.Field()#超链接
+    url = scrapy.Field()#网站超链接
 
     title =scrapy.Field()#标题
 

@@ -20,11 +20,8 @@ class Myspider(scrapy.Spider):
 
     def parse(self, response):
         soup = BeautifulSoup(response.text, "lxml")
-        #print(soup.title.text)
-        #print (response.url)
-        item = SecondtryItem()
-        item['zimu'] = soup.title.text
-        item['address'] = response.url
-        return item
+        print(soup.title.text)
+        print (response.url)
+
 
 

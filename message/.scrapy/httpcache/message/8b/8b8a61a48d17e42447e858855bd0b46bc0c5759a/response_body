@@ -1,0 +1,527 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	招标信息
+</title><link href="Css/Stylesheet1.css" rel="stylesheet" type="text/css" /><link href="Css/css.css" rel="stylesheet" type="text/css" /></head>
+<body>
+    <form name="aspnetForm" method="post" action="zbxx.aspx?type=sjzb" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+<script language="Javascript"><!--
+function ANP_goToPage(boxEl){if(boxEl!=null){var pi;if(boxEl.tagName=="SELECT"){pi=boxEl.options[boxEl.selectedIndex].value;}else{pi=boxEl.value;}location.href="zbxx.aspx?type=sjzb&page="+pi+"";}}
+
+--></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="8B5ACCA6" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWBAKY2L7/BgLBzdXXAgLBzemyCwLB/M35C4W9tXHYi6I97LdMIoG3BRlDS4iA" />
+        <table width="1003"  align="center">
+            <tr>
+                <td>
+                    <img src="images/top01.jpg" width="514" height="164" /><img src="images/top02.jpg"
+                        width="489" height="164" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="top5">
+                        <img src="images/dht.jpg" width="1003" height="37" border="0" usemap="#Map7" />
+                        <map name="Map7" id="Map7">
+                            <area shape="rect" coords="138,7,221,29" href="http://www.tjcac.gov.cn/zwxx/flfg.asp?parentid=285&classid=286" target="_blank" />
+                            <area shape="rect" coords="356,9,435,29" href="gcxx.aspx" target="_self" />
+                            <area shape="rect" coords="463,10,544,28" href="qyxx.aspx" target="_self" />
+                            <area shape="rect" coords="570,10,649,27" href="zyry.aspx" target="_self" />
+                            <area shape="rect" coords="675,9,756,28" href="http://www.tjconstruct.cn/tjxyweb/tjxy.htm"
+                                target="_blank" />
+                            <area shape="rect" coords="784,10,867,30" href="http://60.29.123.2/Expert/exp/main.aspx"
+                                target="_blank" />
+                            <area shape="rect" coords="894,10,972,28" href="xzwj.aspx" target="_self" />
+                            <area shape="rect" coords="33,6,114,29" href="index.aspx" target="_self" />
+                            <area shape="rect" coords="247,9,331,29" href="bmzn.aspx" target="_self" />
+                        </map>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div>
+                        
+  <table width="1003" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td width="5" valign="top">
+            </td>
+            <td width="230" valign="top">
+                
+<table width="230" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td width="230" height="37" valign="bottom" background="images/zcfg01_top.jpg">
+            <div align="center">
+                <table width="170" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td height="32" valign="middle">
+                            <div align="left" class="a04">
+                                招标信息</div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td height="350" valign="top" background="images/zcfg01_middle.jpg">
+            <div align="center">
+                <table width="220" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td height="5">
+                        </td>
+                    </tr>
+                </table>
+                <table width="220" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td height="25" valign="middle" background="images/line01.jpg">
+                            <div align="left" class="a02">
+                                <a href="zbxx.aspx?type=sgzb" class="a02">施工招标</a></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" valign="middle" background="images/line01.jpg">
+                            <div align="left" class="a02">
+                                <a href="zbxx.aspx?type=jlzb" class="a02">监理招标</a></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" valign="middle" background="images/line01.jpg">
+                            <div align="left" class="a02">
+                                <a href="zbxx.aspx?type=sjzb" class="a02">设计招标</a></div>
+                        </td>
+                    </tr>
+                   <tr>
+                        <td height="25" valign="middle" background="images/line01.jpg">
+                            <div align="left" class="a02">
+                                <a href="zbxx.aspx?type=sbzb" class="a02">设备招标</a></div>
+                        </td>
+                    </tr>
+                   <tr>
+                        <td height="25" valign="middle" background="images/line01.jpg">
+                            <div align="left" class="a02">
+                                <a href="zbxx.aspx?type=glzb" class="a02">公路招标</a></div>
+                        </td>
+                    </tr>
+                   <tr>
+                        <td height="25" valign="middle" background="images/line01.jpg">
+                            <div align="left" class="a02">
+                                <a href="zbxx.aspx?type=qtzb" class="a02">专业招标</a></div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td height="5">
+            <img src="images/zcfg01_bottom.jpg" width="230" height="6" /></td>
+    </tr>
+</table>
+            </td>
+            <td width="6" valign="top">
+            </td>
+            <td width="757" valign="top">
+                <div align="center">
+                    <table width="757" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td height="39" valign="middle" background="images/zcfg02_top.jpg">
+                                <div align="left" class="a05">
+                                    <span id="ctl00_ContentPlaceHolder1_Label1">设计招标</span>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <table width="757" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td id="ctl00_ContentPlaceHolder1_tp" height="350" valign="top" background="images/zcfg02_middle.jpg">
+                                <div id="ctl00_ContentPlaceHolder1_Panel1">
+	
+                                
+                                
+ <style type="text/css">
+
+table.t1 td,table.t1 th{
+   height:28px;
+    padding:0 1em 0;
+}
+</style>
+<table width="100%" height="34" border="1" cellpadding="0" cellspacing="0" bordercolor="#DFE1E5">
+    <tr>
+        <td bgcolor="#EFF0F2">
+            <table border="0" align="center" cellpadding="0" cellspacing="0" style="width: 576px">
+                <tr>
+                    <td style="height: 24px; width: 600px;" align="center">
+                        公告文件号：<input name="ctl00$ContentPlaceHolder1$ctl00$TextBox2" type="text" id="ctl00_ContentPlaceHolder1_ctl00_TextBox2" />
+                        工程名称：<input name="ctl00$ContentPlaceHolder1$ctl00$TextBox1" type="text" id="ctl00_ContentPlaceHolder1_ctl00_TextBox1" />
+                    </td>
+                    <td style="height: 24px">
+                        <input type="image" name="ctl00$ContentPlaceHolder1$ctl00$ImageButton1" id="ctl00_ContentPlaceHolder1_ctl00_ImageButton1" src="images/nen111.jpg" border="0" /></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+<table width="757" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td height="315" valign="top" background="images/zcfg02_middle.jpg">
+            <div align="center">
+            
+                <table id="Tp1" width="100%" border="1" cellspacing="0" cellpadding="0" class="t1">
+                    <tr>
+                        <td width="325" class="a09" style="font-weight: bold">
+                            工程名称
+                        </td>
+                    
+                        <td width="200" class="a09" style="font-weight: bold">
+                            建设单位
+                        </td>
+                        
+                        <td width="140" class="a09" style="font-weight: bold">
+                            公告文件号
+                        </td>
+                         
+                        <td width="80" class="a09" style="font-weight: bold">
+                            截止日期
+                        </td>
+                    </tr>
+                        
+                    
+                            <tr>
+                                <td width="325" height="28" valign="middle">
+                                    <div align="left">
+                                        <a href='shchxt/tonggao.doc/new/../epr_zbgg/2017/ZBGG0002[2017]0409.htm' class="a09" target="_blank">
+                                            （设计）南站二期周边配套道路工程博航环路等17条道路及配套管线工程
+                                        </a>
+                                    </div>
+                                </td>
+                                 
+                                <td width="200">
+                                    <div align="left" class="a09">
+                                        <div align="left">
+                                            天津市民欣投资有限公司
+                                        </div>
+                                </td>
+                                  
+                                <td width="140">
+                                    <div align="left" class="a09">
+                                        <div align="left">
+                                            津建交市设计[2017]0409
+                                        </div>
+                                </td>
+                               
+                                <td width="80">
+                                    <div align="right" class="a09">
+                                        2017-04-17
+                                    </div>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td width="325" height="28" valign="middle">
+                                    <div align="left">
+                                        <a href='shchxt/tonggao.doc/new/../epr_zbgg/2017/ZBGG0002[2017]0408.htm' class="a09" target="_blank">
+                                            （设计）南站二期周边配套道路工程博航环路等17条道路及配套管线工程
+                                        </a>
+                                    </div>
+                                </td>
+                                 
+                                <td width="200">
+                                    <div align="left" class="a09">
+                                        <div align="left">
+                                            天津市民欣投资有限公司
+                                        </div>
+                                </td>
+                                  
+                                <td width="140">
+                                    <div align="left" class="a09">
+                                        <div align="left">
+                                            津建交市设计[2017]0408
+                                        </div>
+                                </td>
+                               
+                                <td width="80">
+                                    <div align="right" class="a09">
+                                        2017-04-17
+                                    </div>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td width="325" height="28" valign="middle">
+                                    <div align="left">
+                                        <a href='shchxt/tonggao.doc/new/../epr_zbgg/2017/ZBGG0002[2017]0407.htm' class="a09" target="_blank">
+                                            （设计）南站二期周边配套道路工程博航环路等17条道路及配套管线工程
+                                        </a>
+                                    </div>
+                                </td>
+                                 
+                                <td width="200">
+                                    <div align="left" class="a09">
+                                        <div align="left">
+                                            天津市民欣投资有限公司
+                                        </div>
+                                </td>
+                                  
+                                <td width="140">
+                                    <div align="left" class="a09">
+                                        <div align="left">
+                                            津建交市设计[2017]0407
+                                        </div>
+                                </td>
+                               
+                                <td width="80">
+                                    <div align="right" class="a09">
+                                        2017-04-17
+                                    </div>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td width="325" height="28" valign="middle">
+                                    <div align="left">
+                                        <a href='shchxt/tonggao.doc/new/../epr_zbgg/2017/ZBGG0002[2017]0406.htm' class="a09" target="_blank">
+                                            （设计）南站二期周边配套道路工程博航环路等17条道路及配套管线工程
+                                        </a>
+                                    </div>
+                                </td>
+                                 
+                                <td width="200">
+                                    <div align="left" class="a09">
+                                        <div align="left">
+                                            天津市民欣投资有限公司
+                                        </div>
+                                </td>
+                                  
+                                <td width="140">
+                                    <div align="left" class="a09">
+                                        <div align="left">
+                                            津建交市设计[2017]0406
+                                        </div>
+                                </td>
+                               
+                                <td width="80">
+                                    <div align="right" class="a09">
+                                        2017-04-17
+                                    </div>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td width="325" height="28" valign="middle">
+                                    <div align="left">
+                                        <a href='shchxt/tonggao.doc/new/../epr_zbgg/2017/ZBGG0001[2017]0404.htm' class="a09" target="_blank">
+                                            （设计）南站二期周边配套道路工程博航环路等17条道路及配套管线工程
+                                        </a>
+                                    </div>
+                                </td>
+                                 
+                                <td width="200">
+                                    <div align="left" class="a09">
+                                        <div align="left">
+                                            天津市民欣投资有限公司
+                                        </div>
+                                </td>
+                                  
+                                <td width="140">
+                                    <div align="left" class="a09">
+                                        <div align="left">
+                                            津建交市勘察[2017]0404
+                                        </div>
+                                </td>
+                               
+                                <td width="80">
+                                    <div align="right" class="a09">
+                                        2017-04-17
+                                    </div>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td width="325" height="28" valign="middle">
+                                    <div align="left">
+                                        <a href='shchxt/tonggao.doc/new/../epr_zbgg/2017/ZBGG0202[2017]0401.htm' class="a09" target="_blank">
+                                            （设计）中国能建天津电力工程技术自主创新产业园天津电力设计院生产科研基地项目
+                                        </a>
+                                    </div>
+                                </td>
+                                 
+                                <td width="200">
+                                    <div align="left" class="a09">
+                                        <div align="left">
+                                            中国能源建设集团天津电力设计院有限公司
+                                        </div>
+                                </td>
+                                  
+                                <td width="140">
+                                    <div align="left" class="a09">
+                                        <div align="left">
+                                            津建交河东设计[2017]0401
+                                        </div>
+                                </td>
+                               
+                                <td width="80">
+                                    <div align="right" class="a09">
+                                        2017-04-17
+                                    </div>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td width="325" height="28" valign="middle">
+                                    <div align="left">
+                                        <a href='shchxt/tonggao.doc/new/../epr_zbgg/2017/ZBGG2102[2017]0401.htm' class="a09" target="_blank">
+                                            （设计）保税库桥梁工程
+                                        </a>
+                                    </div>
+                                </td>
+                                 
+                                <td width="200">
+                                    <div align="left" class="a09">
+                                        <div align="left">
+                                            天津海泰建设开发有限公司
+                                        </div>
+                                </td>
+                                  
+                                <td width="140">
+                                    <div align="left" class="a09">
+                                        <div align="left">
+                                            津建交园区设计[2017]0401
+                                        </div>
+                                </td>
+                               
+                                <td width="80">
+                                    <div align="right" class="a09">
+                                        2017-04-17
+                                    </div>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td width="325" height="28" valign="middle">
+                                    <div align="left">
+                                        <a href='shchxt/tonggao.doc/new/../epr_zbgg/2017/ZBGG2101[2017]0401.htm' class="a09" target="_blank">
+                                            （设计）保税库桥梁工程
+                                        </a>
+                                    </div>
+                                </td>
+                                 
+                                <td width="200">
+                                    <div align="left" class="a09">
+                                        <div align="left">
+                                            天津海泰建设开发有限公司
+                                        </div>
+                                </td>
+                                  
+                                <td width="140">
+                                    <div align="left" class="a09">
+                                        <div align="left">
+                                            津建交园区勘察[2017]0401
+                                        </div>
+                                </td>
+                               
+                                <td width="80">
+                                    <div align="right" class="a09">
+                                        2017-04-17
+                                    </div>
+                                </td>
+                            </tr>
+                        
+                </table>
+                
+	<!-- AspNetPager V7.0.2 for VS2005 & VS2008  Copyright:2003-2007 Webdiyer (www.webdiyer.com) -->
+	<div id="ctl00_ContentPlaceHolder1_ctl00_AspNetPager1" align="center">
+<div align="left">
+	总共24466条数据,共3059页/当前1页
+</div><div align="center">
+	<a disabled="disabled">首页</a><a disabled="disabled">前一页</a><span><b><font color="red">1</font></b></span><a href="zbxx.aspx?type=sjzb&amp;page=2">2</a><a href="zbxx.aspx?type=sjzb&amp;page=3">3</a><a href="zbxx.aspx?type=sjzb&amp;page=4">4</a><a href="zbxx.aspx?type=sjzb&amp;page=5">5</a><a href="zbxx.aspx?type=sjzb&amp;page=6">6</a><span><a href="zbxx.aspx?type=sjzb&amp;page=7">...</a></span><a href="zbxx.aspx?type=sjzb&amp;page=2">下一页</a><a href="zbxx.aspx?type=sjzb&amp;page=3059">尾页</a>&nbsp;&nbsp;<select name="ctl00$ContentPlaceHolder1$ctl00$AspNetPager1_input" id="ctl00$ContentPlaceHolder1$ctl00$AspNetPager1_input" onchange="ANP_goToPage(this)">
+		<option value="1" selected="true">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">......</option><option value="3055">3055</option><option value="3056">3056</option><option value="3057">3057</option><option value="3058">3058</option><option value="3059">3059</option>
+	</select>
+</div>
+</div>
+<!-- AspNetPager V7.0.2 for VS2005 & VS2008 End -->
+
+
+            </div>
+        </td>
+    </tr>
+</table>
+  
+    <script type="text/javascript" language="javascript">
+    for(j=1;j<=1;j++)
+    {
+         for (i=0;i<document.getElementById("Tp"+j).rows.length;i++) 
+        {
+　　        //(i%2==0)?(TableNew.rows(i).className = "a1"):(TableNew.rows(i).className = "");与下边方法相同
+            if(i%2==0)
+            {
+                document.getElementById("Tp"+j).rows(i).className = "a1";
+            }
+            else
+            {
+                document.getElementById("Tp"+j).rows(i).className = "";
+            }
+        }
+    }
+   
+    </script>
+</div>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td height="6" valign="top">
+                                <img src="images/zcfg02_bottom.jpg" width="757" height="6" /></td>
+                        </tr>
+                    </table>
+                </div>
+            </td>
+            <td width="5" valign="top">
+            </td>
+        </tr>
+    </table>
+
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="bootm">
+                        <table width="1003" border="0" cellspacing="0" cellpadding="0" class="a01">
+                            <tr>
+                                <td style="height: 10px">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="9" background="images/bottom.jpg">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="110" valign="middle">
+                                    <div align="center">
+                                        <a href="index.aspx" class="a01">网站首页</a> | <a href="http://www.tjcac.gov.cn/zwxx/flfg.asp?parentid=285&classid=286" target="_blank" 
+                                            class="a01">政策法规</a> |<a href="home/bmzn/bm-5.htm" target="_blank" class="a01">部门职能</a>
+                                        | <a href="home/gcxx/info.asp" target="_blank" class="a01">工程信息</a> | <a href="home/qyxx/sgqyinc.asp"
+                                            target="_blank" class="a01">企业信息</a> | <a href="home/zyrs/info.asp" class="a01">专业人员</a>
+                                        | <a href="http://www.tjconstruct.cn/tjxyweb/tjxy.htm" target="_blank"
+                                            class="a01">信用信息</a> | <a href="http://60.29.123.2/Expert/exp/main.aspx" target="_blank"
+                                                class="a01">评标专家</a> | <a href="downloads.aspx" target="_blank" class="a01">下载中心</a><br />
+                                        <a href="admin/Login.aspx" class="a01">网站管理</a>&nbsp;<a href="#" class="a01"></a>
+                                        版权所有：天津市工程建设交易服务中心 津ICP备05003504号 您是第<font class="di_text">293876</font>位访客
+                                        <br />
+                                        地址：天津市南开区复康路23号增1号 邮编：300191 联系电话：23672681 24538388（传真） E-mail:tjjsj@sohu.com</div>
+                               <br />
+                         <script type="text/javascript">                             document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/03/000/0000/60435145/CA030000000604351450001.js' type='text/javascript'%3E%3C/script%3E"));</script>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

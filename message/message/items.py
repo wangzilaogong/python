@@ -13,7 +13,7 @@ class MessageItem(scrapy.Item):
     # name = scrapy.Field()
     webname = scrapy.Field()#网站名
 
-    url = scrapy.Field()#网站超链接
+    province= scrapy.Field()#网站省份
 
     title =scrapy.Field()#标题
 

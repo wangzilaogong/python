@@ -20,6 +20,7 @@ class Myspider(scrapy.Spider):
         titles = response.xpath('//a[@class="a09" and @target="_blank"]/text()').extract()
         hrefs =response.xpath('//a[@class="a09" and @target="_blank"]/@href').extract()
 
+
     def get(self,response):
         item = MessageItem()
         item['webname']=self.webname
